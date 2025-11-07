@@ -18,7 +18,7 @@
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
             <div>
                 <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                    <img src="images/logo_circular.png" alt="Logo de la empresa" class="mx-auto w-32 h-32 rounded-full border-4 border-gray-300 mb-4">
                 </a>
             </div>
 
