@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.login-container {
+display: flex;
+gap: 1rem;
+}

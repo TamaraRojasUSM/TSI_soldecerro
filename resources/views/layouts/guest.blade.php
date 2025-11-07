@@ -21,8 +21,7 @@
                     <img src="images/logo_circular.png" alt="Logo de la empresa" class="mx-auto w-32 h-32 rounded-full border-4 border-gray-300 mb-4">
                 </a>
             </div>
-
-            <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+            <div class="mt-4 px-4 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg" style="width: 35%;">
                 {{ $slot }}
             </div>
         </div>
