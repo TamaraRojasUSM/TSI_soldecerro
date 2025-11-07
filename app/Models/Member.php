@@ -26,4 +26,8 @@ class Member extends Model
         'info_adicional',
     ];
 
+    public function payments()
+    {
+        return $this->hasMany(Payment::class);
+    }
 }
