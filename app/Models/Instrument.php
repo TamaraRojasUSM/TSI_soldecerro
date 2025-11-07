@@ -24,4 +24,9 @@ class Instrument extends Model
     {
         return $this->hasMany(Loan::class);
     }
+
+    public function maintenances()
+    {
+        return $this->hasMany(Maintenance::class);
+    }
 }
